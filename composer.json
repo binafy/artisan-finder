@@ -24,7 +24,6 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
     "autoload": {
         "psr-4": {
             "Binafy\\ArtisanFinder\\": "src/"
@@ -34,5 +33,9 @@
         "psr-4": {
             "Tests\\": "tests/"
         }
+    },
+    "require": {
+        "php": "^8.0",
+        "laravel/framework": "^9.0|^10.0|^11.0"
     }
 }
