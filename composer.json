@@ -5,7 +5,14 @@
         "binafy",
         "milwad",
         "laravel",
-        "framework"
+        "framework",
+        "artisan-finder",
+        "artisan",
+        "finder",
+        "command",
+        "console",
+        "find-command",
+        "find-artisan-command"
     ],
     "homepage": "https://github.com/binafy/artisan-finder",
     "type": "library",
