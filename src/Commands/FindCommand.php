@@ -4,6 +4,8 @@ namespace Binafy\ArtisanFinder\Commands;
 
 use Illuminate\Console\Command;
 
+use function Laravel\Prompts\suggest;
+
 class FindCommand extends Command
 {
     /**
@@ -23,8 +25,21 @@ class FindCommand extends Command
     /**
      * Execute the console command.
      */
-    public function handle()
+    public function handle(): int
     {
-        //
+        $commands = collect(array_keys($this->getApplication()->all()))
+            ->filter(fn (string $command) => $command !== $this->signature)
+            ->values();
+
+        $command = suggest(
+            'Search for a command',
+            options: $commands->toArray(),
+            required: true,
+            hint: 'Type parts of a command name to search for'
+        );
+
+        $this->call($command);
+
+        return 0;
     }
 }
