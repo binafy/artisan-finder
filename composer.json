@@ -1,13 +1,15 @@
 {
     "name": "binafy/artisan-finder",
     "description": "Find your artisan command",
+    "keywords": [
+        "binafy",
+        "milwad",
+        "laravel",
+        "framework"
+    ],
+    "homepage": "https://github.com/binafy/artisan-finder",
     "type": "library",
     "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Binafy\\ArtisanFinder\\": "src/"
-        }
-    },
     "authors": [
         {
             "name": "Milwad",
@@ -15,5 +17,10 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Binafy\\ArtisanFinder\\": "src/"
+        }
+    }
 }
