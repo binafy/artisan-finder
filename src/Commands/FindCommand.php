@@ -20,7 +20,7 @@ class FindCommand extends Command
      *
      * @var string
      */
-    protected $description = 'Find artisan command with given string';
+    protected $description = 'Find artisan command with given name';
 
     /**
      * Execute the console command.
