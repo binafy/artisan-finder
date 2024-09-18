@@ -1,0 +1,19 @@
+{
+    "name": "binafy/artisan-finder",
+    "description": "Find your artisan command",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Binafy\\ArtisanFinder\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Milwad",
+            "email": "milwad.dev@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
