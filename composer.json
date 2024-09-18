@@ -37,5 +37,12 @@
     "require": {
         "php": "^8.0",
         "laravel/framework": "^9.0|^10.0|^11.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Binafy\\ArtisanFinder\\Providers\\ArtisanFinderServiceProvider"
+            ]
+        }
     }
 }
