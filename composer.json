@@ -29,5 +29,10 @@
         "psr-4": {
             "Binafy\\ArtisanFinder\\": "src/"
         }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
     }
 }
