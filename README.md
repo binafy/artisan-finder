@@ -23,3 +23,12 @@ composer require binafy/artisan-finder --dev
 ```
 
 > **_NOTE:_** We suggest to install the package in development mode.
+
+<a name="contributors"></a>
+## Contributors
+
+Thanks to all the people who contributed. [Contributors](https://github.com/binafy/artisan-finder/graphs/contributors).
+
+<a href="https://github.com/binafy/artisan-finder/graphs/contributors"><img src="https://opencollective.com/artisan-finder/contributors.svg?width=890&button=false" /></a>
+
+
