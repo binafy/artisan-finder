@@ -35,3 +35,8 @@ Thanks to all the people who contributed. [Contributors](https://github.com/bina
 ## Security
 
 If you discover any security-related issues, please email `binafy23@gmail.com` instead of using the issue tracker.
+
+<a name="chanelog"></a>
+## Changelog
+
+The changelog can be found in the `CHANGELOG.md` file of the GitHub repository. It lists the changes, bug fixes, and improvements made to each version of the `Artisan Finder` package.
