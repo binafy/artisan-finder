@@ -31,7 +31,7 @@
             "homepage": "https://github.com/binafy"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "Binafy\\ArtisanFinder\\": "src/"
