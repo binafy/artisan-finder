@@ -40,3 +40,8 @@ If you discover any security-related issues, please email `binafy23@gmail.com` i
 ## Changelog
 
 The changelog can be found in the `CHANGELOG.md` file of the GitHub repository. It lists the changes, bug fixes, and improvements made to each version of the `Artisan Finder` package.
+
+<a name="license"></a>
+## License
+
+The MIT License (MIT). Please see [License File](https://github.com/binafy/artisan-finder/blob/1.x/LICENSE) for more information.
