@@ -24,6 +24,21 @@ composer require binafy/artisan-finder --dev
 
 > **_NOTE:_** We suggest to install the package in development mode.
 
+<a name="how-to-work"></a>
+## How to Work
+
+For working with `Artisan Finder`, you can just run below command on your terminal:
+
+```shell
+php artisan find:art
+```
+
+When you run this command, this command show you a search box, and you can search your command and run it immediately:
+
+![Artisan Finder Gif](art/video.gif)
+
+> **_NOTE:_** Thank you [Hamid-Reza Khosravi](https://github.com/hrk-ir) for creating this video.
+
 <a name="contributors"></a>
 ## Contributors
 
