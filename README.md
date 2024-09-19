@@ -13,3 +13,13 @@
 
 Artisan Finder is a Laravel package that introduces a convenient command called `find:art`. This command provides an interactive select input, allowing you to quickly search through available artisan commands and execute them immediately. It's designed to enhance your workflow by making it easier to locate and run artisan commands without the need to remember exact command names, offering a faster and more efficient development experience.
 
+<a name="installation"></a>
+## Installation
+
+You can install the package with Composer:
+
+```bash
+composer require binafy/artisan-finder --dev
+```
+
+> **_NOTE:_** We suggest to install the package in development mode.
