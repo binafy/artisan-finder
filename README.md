@@ -31,4 +31,7 @@ Thanks to all the people who contributed. [Contributors](https://github.com/bina
 
 <a href="https://github.com/binafy/artisan-finder/graphs/contributors"><img src="https://opencollective.com/artisan-finder/contributors.svg?width=890&button=false" /></a>
 
+<a name="security"></a>
+## Security
 
+If you discover any security-related issues, please email `binafy23@gmail.com` instead of using the issue tracker.
