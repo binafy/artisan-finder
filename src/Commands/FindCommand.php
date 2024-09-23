@@ -5,6 +5,7 @@ namespace Binafy\ArtisanFinder\Commands;
 use Illuminate\Console\Command;
 
 use function Laravel\Prompts\suggest;
+use function Laravel\Prompts\text;
 
 class FindCommand extends Command
 {
@@ -13,7 +14,7 @@ class FindCommand extends Command
      *
      * @var string
      */
-    protected $signature = 'find:art';
+    protected $signature = 'find:art {args?}';
 
     /**
      * The console command description.
@@ -38,7 +39,18 @@ class FindCommand extends Command
             hint: 'Type parts of a command name to search for'
         );
 
-        $this->call($command);
+        $args = [];
+
+        if ($this->argument('args')) {
+            $args = text(
+                label: 'Write arguments:',
+                placeholder: 'E.g. Milwad',
+                hint: 'This will be sent as command arguments'
+            );
+            $args = explode(' ', $args);
+        }
+
+        $this->call($command, $args);
 
         return 0;
     }
